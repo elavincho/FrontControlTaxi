@@ -165,7 +165,7 @@ export default function Register({ onRegisterSuccess, onNavigateToLogin }: Regis
           </div>
           <div className="text-center mt-5 px-6">
             <h2 className="text-3xl font-black text-slate-900 font-display uppercase tracking-wider">
-              REGISTRO DE <span className="text-yellow-500 font-black">CHOFER</span>
+              REGISTRO DE <span className="text-yellow-500 font-black">USUARIO</span>
             </h2>
             <p className="text-xs text-slate-500 mt-1">Crear Cuenta Nueva — Taxi Control</p>
           </div>
@@ -184,7 +184,7 @@ export default function Register({ onRegisterSuccess, onNavigateToLogin }: Regis
           <div className="hidden md:block">
             <div className="flex items-center space-x-2 text-yellow-600 font-mono text-xs tracking-wider uppercase mb-1">
               <Sparkles className="h-4 w-4 text-yellow-500" />
-              <span>Registro de Chofer</span>
+              <span>Registro de Usuario</span>
             </div>
             <h2 className="text-2xl font-black tracking-tight text-slate-900 font-display uppercase">
               Crear Cuenta Nueva

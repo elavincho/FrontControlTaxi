@@ -183,7 +183,7 @@ export default function Dashboard({ user, onNavigate, onQuickAction }: Dashboard
       const reportHeader = `====================================================\n`;
       const reportTitle = `   REPORTE FINANCIERO MENSUAL - TAXI CONTROL (JULIO 2026)\n`;
       const reportCar = `   Vehículo: ${user.carBrand} ${user.carModel} | Patente: ${user.carPlate}\n`;
-      const reportUser = `   Chofer: ${user.name} | Kilometraje: ${user.carKilometers} KM\n`;
+      const reportUser = `   Usuario: ${user.name} | Kilometraje: ${user.carKilometers} KM\n`;
       const reportDivider = `====================================================\n\n`;
       
       const reportContent = `--- RESUMEN DE FINANZAS ---\n` +

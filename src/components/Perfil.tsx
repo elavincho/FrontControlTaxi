@@ -72,13 +72,13 @@ export default function Perfil({ user, onUserUpdate, onAccountDeleted }: PerfilP
     // Check if email or username taken by other users
     const emailConflict = users.some(u => u.id !== user.id && u.email.toLowerCase() === email.toLowerCase());
     if (emailConflict) {
-      setErrorMsg('El correo electrónico ya está en uso por otro chofer.');
+      setErrorMsg('El correo electrónico ya está en uso por otro usuario.');
       return;
     }
 
     const usernameConflict = users.some(u => u.id !== user.id && u.username.toLowerCase() === username.toLowerCase());
     if (usernameConflict) {
-      setErrorMsg('El nombre de usuario ya está en uso por otro chofer.');
+      setErrorMsg('El nombre de usuario ya está en uso por otro usuario.');
       return;
     }
 
@@ -212,7 +212,7 @@ export default function Perfil({ user, onUserUpdate, onAccountDeleted }: PerfilP
     <div className="space-y-6 font-sans pb-12" id="perfil-view">
       {/* View Header */}
       <div className="bg-white border border-slate-200 p-6 rounded-2xl shadow-sm">
-        <h2 className="text-xl font-black text-slate-900 font-display uppercase">Mi Perfil de Chofer</h2>
+        <h2 className="text-xl font-black text-slate-900 font-display uppercase">Mi Perfil de Usuario</h2>
         <p className="text-xs text-slate-400 font-bold">Administra tus credenciales personales y los parámetros operativos de tu vehículo.</p>
       </div>
 

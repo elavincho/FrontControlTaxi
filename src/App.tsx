@@ -467,7 +467,7 @@ export default function App() {
             </div>
             
             <h3 className="text-lg font-bold font-display text-slate-900 flex items-center justify-center space-x-2">
-              <span>¿Sigues ahí, Chofer?</span>
+              <span>¿Sigues ahí?</span>
             </h3>
             
             <p className="text-xs text-slate-500 leading-relaxed">
