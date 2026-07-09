@@ -140,7 +140,7 @@ export default function Login({ onLoginSuccess, onNavigateToRegister }: LoginPro
         <div className="md:hidden -mx-6 -mt-12 mb-8 sm:-mx-12 relative overflow-hidden">
           <div className="relative w-full aspect-[16/10] sm:aspect-[16/9] overflow-hidden border-b border-slate-200 dark:border-zinc-800 bg-slate-950">
             <img 
-              src="/src/assets/images/taxi_dark_gold_1783567838853.jpg" 
+              src="/images/taxi_dark_gold_1783567838853.jpg" 
               alt="Taxi Header" 
               className="w-full h-full object-cover object-center"
               referrerPolicy="no-referrer"
