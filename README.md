@@ -4,7 +4,7 @@
 
 # Control Taxi
 
-Este proyecto es para la realización del Frontend de un sistema de **Gestión y Administración de los Ingresos y Gastos** del Taxi. Utilicé Google AI Studio para la realización del Frondend pasando una **Historia de Usuario** muy detallada para que la IA pudiera hacer la interfaz gráfica.
+Este proyecto es para la realización del Frontend de un sistema de **Gestión y Administración de los Ingresos y Gastos** del Taxi. Utilicé Google AI Studio para la realización del Frontend pasando una **Historia de Usuario** muy detallada para que la IA pudiera hacer la interfaz gráfica.
 
 ## Tecnologías Utilizadas
 - Google AI Studio
